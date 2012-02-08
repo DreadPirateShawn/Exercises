@@ -1,0 +1,15 @@
+There are various interview questions that I like to give to applicants, and I'm curious about how many languages in which I can solve the problems myself. Also, I sometimes like to keep sample tasks around for reference.
+
+Re: Interview Questions
+
+1) Write a function that takes a parameter and returns whether it is a power of two.
+
+Restrictions:
+* Can only use + - * / %
+* No floating point (integers only)
+
+Background:
+* J2ME had no floating point, and mobile development historically suffered various other challenges & restrictions. Sometimes we don't get our favorite toys to program with, there won't always be a math library to save us, and creative thinking will always come in handy.
+
+Languages:
+* Bash

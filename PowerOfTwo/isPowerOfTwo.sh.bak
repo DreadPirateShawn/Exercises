@@ -1,0 +1,29 @@
+#!/bin/bash
+
+
+check()
+{
+  val=$1
+  echo "Check value: $val"
+
+  if (($val > 1))
+  then
+    if (($val % 2 == 0))
+    then
+      let "val = $val / 2"
+      check $val
+      exit $val
+    fi
+  fi
+
+  if (($val == 1))
+  then
+    echo "Power of two!"
+  else
+    echo "Not a power of two, failed at $val."
+  fi
+  exit 
+}
+
+
+check $1
